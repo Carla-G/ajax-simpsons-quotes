@@ -1,6 +1,6 @@
 // This function loads pokemon data from the Pokemon API
 function fetchSimpsonsJson() {
-    const url = `https://simpsons-quotes-api.herokuapp.com/quotes`;
+    const url = "https://thesimpsonsquoteapi.glitch.me/quotes";
     axios.get(url)
       .then(function(response) {
          return response.data[0]; // response.data instead of response.json() with fetch
