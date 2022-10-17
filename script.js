@@ -1,4 +1,3 @@
-// This function loads pokemon data from the Pokemon API
 function fetchSimpsonsJson() {
     const url = "https://thesimpsonsquoteapi.glitch.me/quotes";
     axios.get(url)
